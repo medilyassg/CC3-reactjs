@@ -1,0 +1,37 @@
+.content{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+.detail{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+
+    
+}
+.content div img {
+    margin: 10px;
+    width: 20%;
+    border: 5px solid rgb(17, 17, 60);
+    border-radius: 50%;
+}
+.content p{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    text-transform: capitalize  ;
+    column-gap: 20px;
+    color: rgb(17, 17, 60);
+}
+.content p span{
+    color: blueviolet;
+}

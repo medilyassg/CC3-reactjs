@@ -1,0 +1,28 @@
+.user{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width:90%;
+    font-size: large;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius:20px ;
+    padding: 20px;
+    color: rgb(34, 107, 107) ;
+    
+}
+.user img{
+    width: 50%;
+}
+.user button {
+    width: 70%;
+    padding: 5px;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    color: white;
+}

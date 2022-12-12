@@ -1,0 +1,22 @@
+.taches{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:40px ;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+.taches div {
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    font-size: x-large;
+    padding: 20px;
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+h1{
+    color: rgb(43, 80, 226);
+}
+
+
